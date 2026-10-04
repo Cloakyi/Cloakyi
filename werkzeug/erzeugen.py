@@ -270,8 +270,8 @@ def kopfbild(f):
     bild += '<rect x="64" y="14" width="820" height="44" rx="22" fill="%s"/>' % f["flaeche_hoch"]
     bild += symbol_lupe(91, 34, f["nebentext"])
     bild += '<g class="weg"%s>%s</g>' % (verzoegerung(.9), bild.text("In Notizen suchen", 116, 42, 16, f["nebentext"]))
-    gruss = "Hallo, ich bin Cloaki."
-    beginn, takt = 1.1, .075
+    gruss = "Hallo, ich bin Cloaki, ein undefiniertes Lebewesen im Internet."
+    beginn, takt = 1.1, .055
     bild += bild.text(gruss, 116, 42, 16, f["text"],
                       je_zeichen=lambda i: ' class="z"%s' % verzoegerung(beginn + i * takt))
     stellen, links = [], 116

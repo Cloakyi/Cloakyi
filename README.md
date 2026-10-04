@@ -1,12 +1,12 @@
 <a href="https://cloaki.de">
-<picture><source media="(prefers-color-scheme: dark)" srcset="bilder/kopf-dunkel.svg"><img src="bilder/kopf-hell.svg" width="100%" alt="Mein Avatar steht neben dem Eingang der App InNoteBox. In der Suchleiste tippt sich „Hallo, ich bin Cloaki.“, darunter liegen Notizen: wer ich bin, woran ich gerade sitze und womit ich baue."></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="bilder/kopf-dunkel.svg"><img src="bilder/kopf-hell.svg" width="100%" alt="Mein Avatar steht neben dem Eingang der App InNoteBox. In der Suchleiste tippt sich „Hallo, ich bin Cloaki, ein undefiniertes Lebewesen im Internet.“, darunter liegen Notizen: wer ich bin, woran ich gerade sitze und womit ich baue."></picture>
 </a>
 
-## Hallo, ich bin Cloaki
+## Hallo, ich bin Cloaki, ein undefiniertes Lebewesen im Internet
 
 Ich bin Furry, Gamer und Streamer aus Deutschland. Hier liegt der Quelltext von dem, was ich baue: vor allem InNoteBox, meine Notizen-App für Android, und Solid Self, eine Mod für Minecraft.
 
-<sub>Hi, I’m Cloaki, a furry, gamer and streamer from Germany. This is where the code of my projects lives: InNoteBox, a note app for Android, and Solid Self, a mod for Minecraft.</sub>
+<sub>Hi, I’m Cloaki, an undefined creature on the internet. Furry, gamer and streamer from Germany. This is where the code of my projects lives: InNoteBox, a note app for Android, and Solid Self, a mod for Minecraft.</sub>
 
 ### Projekte
 
