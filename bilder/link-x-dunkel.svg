@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="36" viewBox="0 0 55 36" role="img" aria-label="X">
+<title>X</title>
+<style>
+  .k { animation: ein .6s cubic-bezier(.2,.9,.3,1) both; }
+  .z { animation: zeigen .08s linear both; }
+  .weg { opacity: 0; animation: weg .25s ease-out both; }
+  .blitz { opacity: 0; animation: blitz 1.6s ease-out both; }
+  .blinken { animation: blinken 1.06s step-end infinite; }
+  @keyframes ein { from { opacity: 0; transform: translateY(14px); } }
+  @keyframes zeigen { from { opacity: 0; } }
+  @keyframes weg { from { opacity: 1; } }
+  @keyframes blitz { 0% { opacity: 0; } 20% { opacity: 1; } 100% { opacity: 0; } }
+  @keyframes blinken { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    .k, .z, .weg, .blitz, .blinken { animation: none; }
+  }
+</style>
+<defs><path id="g500-88" d="M1023 0Q1023 0 1023 0Q1023 0 1023 0L623 608H600L48 1432Q48 1432 48 1432Q48 1432 48 1432H307Q307 1432 307 1432Q307 1432 307 1432L675 864H702L1283 0Q1283 0 1283 0Q1283 0 1283 0ZM25 0Q25 0 25 0Q25 0 25 0L596 863H622L994 1432Q994 1432 994 1432Q994 1432 994 1432H1244Q1244 1432 1244 1432Q1244 1432 1244 1432L694 608H674L272 0Q272 0 272 0Q272 0 272 0Z"/></defs>
+<rect width="55" height="36" rx="8" fill="#051D4B"/>
+<circle cx="18" cy="18" r="5" fill="#616161"/>
+<g transform="translate(32.0 23.0) scale(0.00700 -0.00700)" fill="#DEE5FF"><use href="#g500-88" x="0"/></g>
+</svg>

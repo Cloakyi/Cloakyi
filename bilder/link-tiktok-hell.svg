@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="36" viewBox="0 0 88 36" role="img" aria-label="TikTok">
+<title>TikTok</title>
+<style>
+  .k { animation: ein .6s cubic-bezier(.2,.9,.3,1) both; }
+  .z { animation: zeigen .08s linear both; }
+  .weg { opacity: 0; animation: weg .25s ease-out both; }
+  .blitz { opacity: 0; animation: blitz 1.6s ease-out both; }
+  .blinken { animation: blinken 1.06s step-end infinite; }
+  @keyframes ein { from { opacity: 0; transform: translateY(14px); } }
+  @keyframes zeigen { from { opacity: 0; } }
+  @keyframes weg { from { opacity: 1; } }
+  @keyframes blitz { 0% { opacity: 0; } 20% { opacity: 1; } 100% { opacity: 0; } }
+  @keyframes blinken { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) {
+    .k, .z, .weg, .blitz, .blinken { animation: none; }
+  }
+</style>
+<defs><path id="g500-84" d="M445 0Q445 0 445 0Q445 0 445 0V1326H664V0Q664 0 664 0Q664 0 664 0ZM48 1226Q48 1226 48 1226Q48 1226 48 1226V1432Q48 1432 48 1432Q48 1432 48 1432H1059Q1059 1432 1059 1432Q1059 1432 1059 1432V1226Q1059 1226 1059 1226Q1059 1226 1059 1226Z"/><path id="g500-105" d="M137 0Q137 0 137 0Q137 0 137 0V1023Q137 1023 137 1023Q137 1023 137 1023H354Q354 1023 354 1023Q354 1023 354 1023V0Q354 0 354 0Q354 0 354 0ZM246 1218Q190 1218 150 1257Q110 1297 110 1353Q110 1410 150 1448Q190 1486 246 1486Q304 1486 341 1448Q379 1410 379 1353Q379 1297 341 1257Q304 1218 246 1218Z"/><path id="g500-107" d="M236 197V462L781 1023Q781 1023 781 1023Q781 1023 781 1023H1061Q1061 1023 1061 1023Q1061 1023 1061 1023ZM124 0Q124 0 124 0Q124 0 124 0V1432Q124 1432 124 1432Q124 1432 124 1432H342Q342 1432 342 1432Q342 1432 342 1432V0Q342 0 342 0Q342 0 342 0ZM806 0Q806 0 806 0Q806 0 806 0L462 532L615 683L1075 0Q1075 0 1075 0Q1075 0 1075 0Z"/><path id="g500-111" d="M604 -33Q371 -33 219 122Q67 277 67 512Q67 750 219 903Q372 1056 604 1056Q836 1056 989 902Q1142 748 1142 512Q1142 277 990 122Q838 -33 604 -33ZM604 157Q741 157 834 257Q927 356 927 512Q927 670 833 768Q740 866 604 866Q467 866 374 768Q281 670 281 512Q281 356 373 257Q466 157 604 157Z"/></defs>
+<rect width="88" height="36" rx="8" fill="#DAE2FF"/>
+<circle cx="18" cy="18" r="5" fill="#00897B"/>
+<g transform="translate(32.0 23.0) scale(0.00700 -0.00700)" fill="#1F2D51"><use href="#g500-84" x="0"/><use href="#g500-105" x="1107"/><use href="#g500-107" x="1598"/><use href="#g500-84" x="2666"/><use href="#g500-111" x="3773"/><use href="#g500-107" x="4982"/></g>
+</svg>

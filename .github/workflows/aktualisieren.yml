@@ -1,0 +1,37 @@
+name: Aktualisieren
+
+# Holt jeden Morgen die neuesten Veröffentlichungen von InNoteBox und Solid Self und zeichnet
+# die Bilder neu. Gibt es nichts Neues, entsteht auch kein Commit.
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aktualisieren:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Stand der Projekte holen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 werkzeug/stand.py
+
+      - name: Bilder zeichnen
+        run: python3 werkzeug/erzeugen.py
+
+      - name: Änderungen sichern
+        run: |
+          if git diff --quiet; then
+            echo "Nichts Neues."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Stand der Projekte aktualisiert"
+          git push
