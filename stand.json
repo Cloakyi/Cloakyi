@@ -1,12 +1,12 @@
 {
   "innotebox": {
-    "fassung": "Alpha 11",
-    "datum": "2026-09-29",
-    "adresse": "https://github.com/Cloakyi/innotebox/releases/tag/alpha-11"
+    "fassung": "Alpha 12.1",
+    "datum": "2026-10-13",
+    "adresse": "https://github.com/Cloakyi/innotebox/releases/tag/alpha-12.1"
   },
   "solid_self": {
-    "fassung": "1.1.0",
-    "datum": "2026-10-04",
-    "adresse": "https://github.com/Cloakyi/solid-self/releases/tag/v1.1.0"
+    "fassung": "1.2.0",
+    "datum": "2026-10-13",
+    "adresse": "https://github.com/Cloakyi/solid-self/releases/tag/v1.2.0"
   }
 }
